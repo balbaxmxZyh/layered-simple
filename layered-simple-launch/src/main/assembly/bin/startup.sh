@@ -1,7 +1,7 @@
 #!/bin/bash
-SERVER_NAME=fmcp-collect-sink-launch
+SERVER_NAME=${project.name}
 # jar名称
-JAR_NAME=fmcp-collect-sink-launch-0.0.1-SNAPSHOT.jar
+JAR_NAME=${artifactId}-${version}.jar
 cd `dirname $0`
 BIN_DIR=`pwd`
 #echo $BIN_DIR
